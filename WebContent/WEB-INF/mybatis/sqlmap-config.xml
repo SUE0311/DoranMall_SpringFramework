@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.doranMall.domain.ClientBean" alias="client"/>
+		<typeAlias type="com.doranMall.domain.AdminBean" alias="admin"/>
+		<typeAlias type="com.doranMall.domain.CompanyBean" alias="company"/>
+		<typeAlias type="com.doranMall.domain.GuideBean" alias="guide"/>
+		<typeAlias type="com.doranMall.domain.ProductBean" alias="product"/>
+		<typeAlias type="com.doranMall.domain.WishlistBean" alias="wishlist"/>
+	</typeAliases>
+</configuration>

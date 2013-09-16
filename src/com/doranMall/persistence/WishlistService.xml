@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jsnote.persistence.WishlistService">
+    
+    <!-- 목록 보기 -->
+	<select id="getWishlist" resultType="wishlist">
+
+	</select>	
+	
+	<!-- 검색하여 보기 -->
+	<select id="getSearchWishlist" resultType="wishlist">
+	
+	</select>
+	
+	<!-- 총 목록 수 -->
+	<select id="getListCount" resultType="int">
+		select count(*) from wishlist
+ 	</select> 
+	
+	<!-- 희망신청 글 등록 -->
+	<insert id="insertWishlist" parameterType="wishlist">
+	
+	</insert>
+	
+	<!-- 답변글 저장 -->
+	<insert id="insertReply" parameterType="wishlist">
+	
+	</insert>
+	
+	<!-- 조회수 증가 -->
+	<update id="addHit" parameterType="int">
+
+  	</update>
+	
+	<!-- 추천수 증가(Ajax) -->
+	<update id="addGood" parameterType="int">
+
+  	</update>
+	
+	<!-- 게시물 내용 가져오기 -->
+	<select id="getCont" resultType="wishlist">
+	
+ 	</select> 
+	
+	<!-- 게시물 수정 -->
+	<update id="editWishlist" parameterType="wishlist">
+
+  	</update>
+	
+	<!-- 게시물 삭제 -->
+	<delete id="deleteWishlist" parameterType="int">
+	
+	</delete>
+	
+</mapper>

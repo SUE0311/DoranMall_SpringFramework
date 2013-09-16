@@ -1,0 +1,20 @@
+<개요>
+1. 어플리케이션 명 : DoranDoran e-Shop(도란도란 공동구매 샵)
+2. 목     적 : Model2 프로젝트 -> Spring Framework 프로젝트로 변경 
+3. 작성자 : 이지수
+4. 작성일 : 2013.09.11
+
+<소개>
+모델 2 MVC 프로젝트를 Spring Framework MVC 프로젝트로 변경하는 작업입니다. 
+프로젝트 기간은 3주 가량으로 예정됩니다.(Due date : 9/27)  
+공부를 하면서 병행하는 프로젝트이므로 결과물에 대한 소개는 추후 다시 기재할 예정입니다.
+
+<작업 환경>
+Eclipse IDE 
+Oracle 11g
+Tomcat 7.0 
+Spring FrameWork 3.0
+MyBatis
+Maven - Converting 예정
+GitHub
+ObjectAid UML Diagram (Class Modeling)
